@@ -1,0 +1,48 @@
+body {
+    background-color: #35363B;
+    font-family: "Helvetica Neue", "Adobe Garamond Pro", sans-serif;
+    color: #FFFFFF;
+    font-size: 13pt;
+}
+
+.change-block {
+    background-color: #D9D9D9;
+    background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+    border: 2px solid #212121;
+}
+
+.color-red {
+    background-color: #FF0000;
+    border: 1px solid #BF0000;
+}
+
+.color-green {
+    background-color: #00FF00;
+    border: 1px solid #00BF00;
+}
+
+.color-blue {
+    background-color: #0000FF;
+    border: 1px solid #0000BF;
+}
+
+.color-orange {
+    background-color: #FFA500;
+    border: 1px solid #BF7C00;
+}
+
+.color-yellow {
+    background-color: #FFFF00;
+    border: 1px solid #BFBF00;
+}
+
+.color-dark {
+    background-color: #35363B;
+    border: 1px solid #75767B;
+}
+
+.dropdown-item button {
+    border-radius: 200%;
+    height: 20px;
+    width: 20px;
+}
