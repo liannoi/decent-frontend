@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <h1 class="text-center">Guess the number</h1>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <p id="makes-number">Page makes up number </p>
+        </div>
+    </div>
+    <div class="row mt-5 hidden">
+        <div class="col-md-3">
+            <form id="form" method="post">
+                <div class="row">
+                    <div class="form-group col-md-9">
+                        <label class="font-weight-bolder" for="user_value" id="message-enter-value"></label>
+                        <input class="form-control text-center" id="user_value" name="user[value]" type="text">
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-outline-primary mt-4 pt-2 pl-4 pr-4" id="check-button">CHECK</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row mt-5 hidden">
+        <div class="col-md-12">
+            <p id="message-result"></p>
+        </div>
+    </div>
+</div>
+
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="main.js"></script>
+</body>
+
+</html>
