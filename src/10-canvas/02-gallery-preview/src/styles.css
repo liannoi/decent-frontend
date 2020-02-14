@@ -1,0 +1,25 @@
+.carousel {
+    margin-left: 100px;
+}
+
+.carousel-item {
+    width: 250px;
+    float: left;
+}
+
+.carousel-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -webkit-tap-highlight-color: transparent;
+    opacity: 0.7;
+}
+
+.carousel-item img:hover {
+    opacity: 1;
+}
