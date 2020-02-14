@@ -1,0 +1,214 @@
+body {
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", sans-serif;
+    background-color: #FFFFFF;
+    color: #1C1D1E;
+}
+
+.content {
+    background-color: #FAFAFA;
+}
+
+.silent-title {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+}
+
+.silent-title-sub {
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    margin-top: 6px;
+}
+
+h2 {
+    color: #1D1D1F;
+}
+
+.typography-title {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+
+/* Header. */
+
+.img-logo img {
+    height: 41px;
+    width: 44px;
+    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -webkit-tap-highlight-color: transparent;
+    opacity: 0.7;
+}
+
+.img-logo img:hover {
+    opacity: 1;
+}
+
+.img-logo {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.nav-order,
+li .dropdown-menu {
+    background-color: #423F3B;
+    transition: .4s;
+}
+
+li .dropdown-menu a:hover {
+    background-color: unset;
+}
+
+li .dropdown-menu {
+    box-shadow: 0 10px 25px -5px rgba(255, 229, 169, 0.19);
+}
+
+.nav-order li a,
+.splitter span {
+    color: #FFE5A9;
+    transition: .4s;
+}
+
+.splitter {
+    margin-top: 8px;
+}
+
+.nav-order li:last-child a {
+    color: #FF6666;
+}
+
+.nav-order li:last-child a:before {
+    content: ">";
+    padding-right: 1.0rem;
+}
+
+.splitter span {
+    cursor: pointer;
+}
+
+.splitter span:hover {
+    color: #525266;
+}
+
+.nav-order li a:hover {
+    color: #FF6666;
+}
+
+
+/* Pizza size selection. */
+
+.preview-item {
+    width: 100%;
+    height: 128px;
+}
+
+.features .feature-item .card {
+    border: none;
+    background-color: transparent;
+}
+
+.features .feature-item {
+    transition: .4s;
+    cursor: pointer;
+}
+
+.features .feature-item:hover {
+    background-color: #FFE5A9;
+}
+
+.features .feature-item:not(:last-child) {
+    border-right: 1px solid #DCDCDC;
+}
+
+
+/* Simplifies the layout process. */
+
+.env-dev {
+    display: block !important;
+}
+
+
+/* Pizza with ingredients */
+
+.ingredients li {
+    border-radius: 4px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.ingredients li:hover {
+    border: 1px solid #1C1D1E;
+}
+
+.img-preview {
+    width: 400px;
+    height: 100%;
+}
+
+.summary-price {
+    font-size: 32px;
+    line-height: 1.125;
+    letter-spacing: .004em;
+    font-weight: 600;
+    color: #111;
+}
+
+.summary-price:before {
+    content: "$";
+}
+
+.summary-calc {
+    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -webkit-tap-highlight-color: transparent;
+    opacity: 0.7;
+    color: #167AF6 !important;
+}
+
+.summary-calc:hover {
+    opacity: 1;
+}
+
+.summary-calc:before {
+    font-family: "Font Awesome 5 Free", sans-serif;
+    font-weight: 900;
+    content: "\f1ec";
+}
+
+.summary-notation {
+    font-size: 14px;
+    line-height: 1.42861;
+    font-weight: 400;
+    letter-spacing: -.016em;
+}
+
+.summary-bag {
+    width: 100%;
+}
+
+
+/* Checkout order */
+
+.checkout-order {
+    background-color: #FFFFFF;
+}
+
+
+/* Confirmation of an order */
+
+.table-order {
+    background-color: #FFFFFF;
+    transition: .4s;
+}
+
+.table-order tr:nth-child(even) {
+    background-color: #F5F5F5
+}
+
+.table-order:hover {
+    box-shadow: 0 10px 25px -5px rgba(220, 220, 220, 0.19);
+}

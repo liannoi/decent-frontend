@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-sm nav-order">
+    <a class="navbar-brand img-logo" href="index.html">
+        <img alt="Pizzeria" src="../res/logo.svg">
+    </a>
+    <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+            <div class="btn-group dropright">
+                <a class="nav-link" href="">Pizzeria</a>
+                <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle-split splitter" data-toggle="dropdown">
+                    <span>></span>
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="">Order</a>
+                    <a class="dropdown-item" href="">Review Bag</a>
+                </div>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Order</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Size</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="container content-container">
+
+    <!-- pizza size selection -->
+    <div class="content mt-3">
+        <div class="row">
+            <div class="col-md-12 mt-5 pt-4">
+                <div class="row mb-5">
+                    <div class="offset-md-2"></div>
+                    <div class="col-md-8 mt-5">
+                        <h2 class="typography-title text-center">Choose the size of your pizza.</h2>
+                    </div>
+                    <div class="offset-md-2"></div>
+                </div>
+                <!-- cards with pizza sizes -->
+                <div class="row pb-5 mb-5">
+                    <div class="offset-xl-1 col-xl-10">
+                        <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-3 row-cols-md-2 mt-5 features">
+                            <div class="col feature-item pt-5">
+                                <div class="card">
+                                    <div class="card-body mr-4 ml-1"><img alt="Small pizza icon" class="offset-md-1 preview-item" src="../res/icon-pizza-small.svg">
+                                        <h6 class="card-title font-weight-bolder mt-5 text-center ml-4" data-size="small">
+                                            Small</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col feature-item pt-5">
+                                <div class="card">
+                                    <div class="card-body mr-4 ml-1"><img alt="Medium pizza icon" class="offset-md-1 preview-item" src="../res/icon-pizza-medium.svg">
+                                        <h6 class="card-title font-weight-bolder mt-5 text-center ml-4" data-size="medium">
+                                            Medium</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col feature-item pt-5">
+                                <div class="card">
+                                    <div class="card-body mr-4 ml-1"><img alt="Large pizza icon" class="offset-md-1 preview-item" src="../res/icon-pizza-large.svg">
+                                        <h6 class="card-title font-weight-bolder mt-5 text-center ml-4" data-size="large">
+                                            Large</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offset-xl-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- selection of pizza ingredients -->
+    <div class="content mt-3">
+        <div class="row">
+            <div class="col-md-12 mt-5 pt-4">
+                <div class="row mt-5">
+                    <div class="offset-md-2"></div>
+                    <div class="col-md-8">
+                        <h2 class="typography-title text-center">Pick your favorite ingredients.</h2>
+                    </div>
+                    <div class="offset-md-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ingredients and preview -->
+        <div class="row mt-5 pt-5">
+            <div class="offset-md-1"></div>
+            <div class="col-md-4">
+                <ul class="list-group ingredients">
+                    <li class="list-group-item d-flex justify-content-between align-items-center mb-3">
+                        <button class="btn btn-outline-danger" type="button">X</button>
+                        Mushrooms
+                        <span class="badge badge-primary badge-pill">0</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center mb-3">
+                        <button class="btn btn-outline-danger" type="button">X</button>
+                        Bacon
+                        <span class="badge badge-primary badge-pill">0</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center mb-3">
+                        <button class="btn btn-outline-danger" type="button">X</button>
+                        Tomatoes
+                        <span class="badge badge-primary badge-pill">0</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center mb-3">
+                        <button class="btn btn-outline-danger" type="button">X</button>
+                        Cheese
+                        <span class="badge badge-primary badge-pill">0</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center mb-3">
+                        <button class="btn btn-outline-danger" type="button">X</button>
+                        Olives
+                        <span class="badge badge-primary badge-pill">0</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="offset-md-1"></div>
+            <div class="col-md-3 ml-5">
+                <img alt="Pizza with ingredients photo" class="img-preview" src="../res/icon-pizza-ingredients.svg">
+            </div>
+            <div class="offset-md-1"></div>
+        </div>
+
+        <!-- expense -->
+        <div class="row pb-5">
+            <div class="col-md-12 pb-3">
+                <div class="row mt-5">
+                    <div class="offset-md-1"></div>
+                    <div class="col-md-4">
+                        <hr>
+                        <span class="summary-price">0</span></div>
+                    <div class="offset-md-1"></div>
+                </div>
+                <div class="row mt-2">
+                    <div class="offset-md-1"></div>
+                    <div class="col-md-5"><span class="summary-notation">The price is inclusive of delivery and MPE.</span></div>
+                    <div class="offset-md-1"></div>
+                </div>
+                <div class="row mt-2 mb-3">
+                    <div class="offset-md-1"></div>
+                    <div class="col-md-4">
+                        <button class="btn btn-primary summary-bag mt-4">Add to Bag</button>
+                    </div>
+                    <div class="col-md-1 d-none">
+                        <button class="btn summary-calc mt-4 ml-4"></button>
+                    </div>
+                    <div class="offset-md-1"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- checkout order -->
+    <div class="content mt-3 checkout-order">
+        <div class="row">
+            <div class="col-md-12 mt-5 pt-4">
+                <div class="row mt-5">
+                    <div class="offset-md-2"></div>
+                    <div class="col-md-8">
+                        <h2 class="silent-title text-center">Tell us about yourself</h2>
+                    </div>
+                    <div class="offset-md-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row mt-2">
+                    <div class="offset-md-2"></div>
+                    <div class="col-md-8">
+                        <h3 class="silent-title-sub text-center">Enter your personal details for ordering.</h3>
+                    </div>
+                    <div class="offset-md-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pb-5 mt-4">
+            <div class="offset-md-4"></div>
+            <div class="col-md-4">
+                <form action="" class="form-login" id="form" method="post">
+
+                    <!-- first name -->
+                    <div class="row mt-3">
+                        <div class="offset-md-1"></div>
+                        <div class="col-md-10">
+                            <div class="form-group mt-4">
+                                <label class="font-weight-bolder" for="user_first_name">First name:</label>
+                                <input class="form-control checkable-input input-name" id="user_first_name" name="user[first_name]" type="text">
+                            </div>
+                        </div>
+                        <div class="offset-md-1"></div>
+                    </div>
+
+                    <!-- last name -->
+                    <div class="row mt-2">
+                        <div class="offset-md-1"></div>
+                        <div class="col-md-10">
+                            <div class="form-group">
+                                <label class="font-weight-bolder" for="user_last_name">Last name:</label>
+                                <input class="form-control checkable-input input-name" id="user_last_name" name="user[last_name]" type="text">
+                            </div>
+                        </div>
+                        <div class="offset-md-1"></div>
+                    </div>
+
+                    <!-- surname -->
+                    <div class="row mt-2">
+                        <div class="offset-md-1"></div>
+                        <div class="col-md-10">
+                            <div class="form-group">
+                                <label class="font-weight-bolder" for="user_last_name">Surname:</label>
+                                <input class="form-control checkable-input input-name" id="user_surname" name="user[surname]" type="text">
+                            </div>
+                        </div>
+                        <div class="offset-md-1"></div>
+                    </div>
+
+                    <!-- separator -->
+                    <div class="row">
+                        <div class="offset-md-1"></div>
+                        <div class="col-md-10">
+                            <hr>
+                        </div>
+                        <div class="offset-md-1"></div>
+                    </div>
+
+                    <!-- phone number -->
+                    <div class="row mt-2">
+                        <div class="offset-md-1"></div>
+                        <div class="col-md-10">
+                            <div class="form-group">
+                                <label class="font-weight-bolder" for="user_phone">Phone:</label>
+                                <input class="form-control checkable-input" id="user_phone" name="user[phone]" placeholder="XXX-XXX-XXXX" type="tel">
+                            </div>
+                        </div>
+                        <div class="offset-md-1"></div>
+                    </div>
+
+                    <!-- delivery address -->
+                    <div class="row mt-2">
+                        <div class="offset-md-1"></div>
+                        <div class="col-md-10">
+                            <div class="form-group">
+                                <label class="font-weight-bolder" for="user_delivery_address">Delivery address:</label>
+                                <input class="form-control checkable-input" id="user_delivery_address" name="user[delivery_address]" type="text">
+                            </div>
+                        </div>
+                        <div class="offset-md-1"></div>
+                    </div>
+
+                    <!-- separator -->
+                    <div class="row">
+                        <div class="offset-md-1"></div>
+                        <div class="col-md-10">
+                            <hr>
+                        </div>
+                        <div class="offset-md-1"></div>
+                    </div>
+
+                    <!-- checkout button -->
+                    <div class="row mt-2 mb-2">
+                        <div class="offset-md-1"></div>
+                        <div class="col-md-10 mt-2 mb-4">
+                            <button class="btn btn-primary btn-block" id="submit-button" type="button">Place an order
+                            </button>
+                        </div>
+                        <div class="offset-md-1"></div>
+                    </div>
+
+                    <!-- validation error -->
+                    <div class="row d-none mb-3" id="validation-error">
+                        <div class="offset-md-1"></div>
+                        <div class="col-md-10">
+                            <div class="alert alert-danger" id="validation-error-message" role="alert">Report Validation Issues
+                            </div>
+                        </div>
+                        <div class="offset-md-1"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="offset-md-4"></div>
+        </div>
+    </div>
+
+    <!-- confirmation of an order -->
+    <div class="content mt-3">
+        <div class="row">
+            <div class="col-md-12 mt-5 pt-4">
+                <div class="row mt-5">
+                    <div class="offset-md-2"></div>
+                    <div class="col-md-8">
+                        <h2 class="silent-title text-center">Confirm your order</h2>
+                    </div>
+                    <div class="offset-md-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row mt-2">
+                    <div class="offset-md-2"></div>
+                    <div class="col-md-8">
+                        <h3 class="silent-title-sub text-center" id="user_full_name">User</h3>
+                    </div>
+                    <div class="offset-md-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pb-5 mt-5">
+            <div class="col-md-12">
+                <div class="row mt-4 pb-4">
+                    <div class="offset-md-2"></div>
+                    <div class="col-md-8 ml-2">
+                        <table class="table table-bordered table-order">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Price per unit</th>
+                            </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <div class="offset-md-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="../../form-validator.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
