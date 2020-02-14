@@ -1,8 +1,12 @@
 # Decent Front-end
 
-It is also important for the Back-end Developer to be able to work with the Front-end part. This repository contains the best pages that I wrote during the training of the basic web (HTML, CSS, JavaScript).
+It is also important for the Back-end Developer to be able to work with the
+Front-end part. This repository contains the best pages that I wrote during the
+training of the basic web (HTML, CSS, JavaScript).
 
-The order of the pages (blocks that will go further) are sorted by the temporary progress of the training. Thus, **on top** are the freshest and possibly professional typesetting at that time.
+The order of the pages (blocks that will go further) are sorted by the
+temporary progress of the training. Thus, **on top** are the freshest and
+possibly professional typesetting at that time.
 
 ## Samples
 
