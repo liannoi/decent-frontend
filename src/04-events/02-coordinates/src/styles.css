@@ -1,0 +1,11 @@
+body {
+    background-color: #FBF2E9;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 13pt;
+}
+
+.title {
+    margin-left: 140px;
+    margin-top: 30px;
+    font-weight: normal;
+}

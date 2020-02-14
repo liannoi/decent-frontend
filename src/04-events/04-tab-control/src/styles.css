@@ -1,0 +1,42 @@
+.main {
+    padding: 14px;
+    font-family: "Adobe Garamond Pro", "Segoe UI", sans-serif;
+}
+
+.tab-control {
+    border: 2px solid #597BA0;
+    display: flex;
+}
+
+.tc-tabs {
+    color: #FFFFFF;
+    width: 150px;
+    float: left;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.tc-tab {
+    padding: 8px;
+    transition: .4s;
+}
+
+.tc-tabs,
+.tc-tab {
+    background-color: #597BA0;
+}
+
+.tab-control {
+    display: inline-block;
+}
+
+.tc-content {
+    padding: 5px 15px 0;
+    display: flex;
+}
+
+#for-tab-html,
+#for-tab-js,
+#for-tab-css {
+    display: none;
+}
