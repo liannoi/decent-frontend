@@ -1,0 +1,59 @@
+body {
+    font-family: "Adobe Garamond Pro", "Helvetica Neue", sans-serif;
+    font-size: 13pt;
+    background-color: #FBF2E9;
+}
+
+.block-users .card,
+.block-user-posts .card {
+    background-color: transparent;
+    border: 1px solid #CBCBCB;
+}
+
+.block-users .card,
+.block-user-posts .card {
+    transition: .4s;
+}
+
+.block-users .card:hover,
+.block-user-posts .card {
+    border: 1px solid #7A7672;
+}
+
+.block-user-posts .card:hover {
+    background-color: #C7C0B9;
+}
+
+.block-user-posts .card {
+    background-color: #7A644D;
+    color: #FFFFFF;
+}
+
+.block-users .card:hover {
+    background-color: #FBCC9E;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-sentence:first-letter {
+    text-transform: uppercase;
+}
+
+.table-user-info table {
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.table-user-info table:not(:first-child) {
+    opacity: 0 !important;
+    display: none;
+}
+
+.deleting {
+    opacity: 0 !important;
+}
