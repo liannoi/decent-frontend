@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="offset-md-4"></div>
+        <div class="col-md-4">
+            <form action="" class="form-login" id="form" method="post">
+
+                <!-- first name -->
+                <div class="row mt-3">
+                    <div class="offset-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="form-group mt-4">
+                            <label class="font-weight-bolder" for="user_first_name">First name:</label>
+                            <input class="form-control checkable-input input-name" id="user_first_name" name="user[first_name]" type="text">
+                        </div>
+                    </div>
+                    <div class="offset-md-1"></div>
+                </div>
+
+                <!-- last name -->
+                <div class="row mt-2">
+                    <div class="offset-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label class="font-weight-bolder" for="user_last_name">Last name:</label>
+                            <input class="form-control checkable-input input-name" id="user_last_name" name="user[last_name]" type="text">
+                        </div>
+                    </div>
+                    <div class="offset-md-1"></div>
+                </div>
+
+                <!-- surname -->
+                <div class="row mt-2">
+                    <div class="offset-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label class="font-weight-bolder" for="user_last_name">Surname:</label>
+                            <input class="form-control checkable-input input-name" id="user_surname" name="user[surname]" type="text">
+                        </div>
+                    </div>
+                    <div class="offset-md-1"></div>
+                </div>
+
+                <!-- separator -->
+                <div class="row">
+                    <div class="offset-md-1"></div>
+                    <div class="col-md-10">
+                        <hr>
+                    </div>
+                    <div class="offset-md-1"></div>
+                </div>
+
+                <div class="row mt-2 mb-2">
+                    <div class="offset-md-1"></div>
+                    <div class="col-md-10 mt-2 mb-4">
+                        <button class="btn btn-primary btn-block" id="submit-button" type="submit">Sign in</button>
+                    </div>
+                    <div class="offset-md-1"></div>
+                </div>
+
+                <!-- validation error -->
+                <div class="row d-none mb-3" id="validation-error">
+                    <div class="offset-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="alert alert-danger" id="validation-error-message" role="alert">Report Validation Issues
+                        </div>
+                    </div>
+                    <div class="offset-md-1"></div>
+                </div>
+            </form>
+        </div>
+        <div class="offset-md-4"></div>
+    </div>
+</div>
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="form-validator.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
