@@ -1,0 +1,42 @@
+.main {
+    margin: 0 auto;
+    width: 980px;
+}
+
+.textarea,
+.btn-save {
+    border: 1px solid #EBEBEB;
+    transition: .4s;
+}
+
+.textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 600px;
+    max-height: 700px;
+    font-size: 16pt;
+    padding: 10px;
+    scroll-behavior: smooth;
+}
+
+.textarea:hover {
+    box-shadow: 0 10px 25px -5px rgba(239, 239, 239, 0.79);
+}
+
+.send-button {
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.btn-save {
+    width: 120px;
+    float: right;
+    height: 35px;
+    background-color: #60B4DA;
+    color: #FFFFFF;
+    font-size: 14pt;
+}
+
+.btn-save:hover {
+    background-color: #609FC5;
+}

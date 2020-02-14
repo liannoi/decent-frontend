@@ -1,0 +1,9 @@
+.draggable-button {
+    width: 150px;
+    height: 31px;
+    background-color: #483d8b;
+    border: none;
+    color: #ffffff;
+    font-size: 13pt;
+    position: absolute;
+}

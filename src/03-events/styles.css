@@ -1,0 +1,12 @@
+body {
+    font-family: "Adobe Garamond Pro", "Segoe UI", sans-serif;
+    font-size: 14pt;
+}
+
+.main {
+    margin-top: 40px;
+}
+
+.title {
+    text-align: center;
+}
