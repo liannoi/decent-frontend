@@ -30,6 +30,6 @@ jobs:
 
     steps:
       - name: automerge
-        uses: "pascalgn/automerge-action@f81beb99aef41bb55ad072857d43073fba833a98"
+        uses: "pascalgn/automerge-action@a58470325a3437bd872dace642422916828208e0"
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
